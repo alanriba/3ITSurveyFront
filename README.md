@@ -1,27 +1,78 @@
-# Smarthr
+# Front usando Angular 8 y Bootstrap
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
+### Clone the repo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+git clone https://github.com/alanriba/3ITSurveyFront.git
+```
 
-## Build
+### Pre-requisitos 📋
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Instalar con `npm` los packages descritos en el archivo `package.json` y verificar que todo funciona:
 
-## Running unit tests
+```shell
+npm install
+npm start
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Ejecutando las pruebas ⚙️
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+TODO
+
+### Analice las pruebas end-to-end 🔩
+
+TODO
+
+
+
+### Y las pruebas de estilo de codificación ⌨️
+
+Desarrollado con Java Spring Boot
+
+https://angular![Screenshot 2021-07-08 at 05 04 06](https://user-images.githubusercontent.com/25330708/124897688-8a254780-dfac-11eb-9bdd-1ed2acdf6600.png)
+![Screenshot 2021-07-08 at 05 04 06](https://user-images.githubusercontent.com/25330708/124897739-96110980-dfac-11eb-9e5a-20ac9816ea52.png)
+io/
+
+## Despliegue 📦
+
+Si hay Problemas me llaman
+
+## Construido con 🛠️
+
+_Menciona las herramientas que utilizaste para crear tu proyecto_
+
+
+## Contribuyendo 🖇️
+
+Por favor revisalo si te gusto genial y en caso contrario todo feedback es bienvenido para la retroalimentación
+
+## Wiki 📖
+
+No por ahora
+
+## Versionado 📌
+
+
+
+## Autores ✒️
+
+Yo Alex Rivera
+
+
+## Expresiones de Gratitud 🎁
+
+* Gracias por el desafio y la oportunidad�
+* Gracias nuevamente 🤓.
+
+
+
+--
+⌨️ con ❤️ por [Alex](https://github.com/alanriva) ) 😊
