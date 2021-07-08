@@ -1,0 +1,75 @@
+<!-- Page Content -->
+<div class="content container-fluid">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6">
+                        <div class="card dash-widget">
+                            <div class="card-body">
+
+                                <div class="dash-widget-info">
+                                    <form (ngSubmit)="addSurvey()" [formGroup]="addSurveyForm">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="col-form-label">Email <span class="text-danger">*</span></label>
+                                                    <input class="form-control" type="email"
+                                                        [class.invalid]="addSurveyForm.get('Email').invalid && addSurveyForm.get('Email').touched"
+                                                        formControlName="Email">
+                                                    <div *ngIf="addSurveyForm.get('Email').invalid && addSurveyForm.get('Email').touched">
+                                                        <small *ngIf="addSurveyForm.get('Email').invalid && addSurveyForm.get('Email').touched"
+                                                            class="text-danger"> *Email is required</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="col-form-label">Company</label>
+                                                    <select class="select form-control"
+                                                        [class.invalid]="addSurveyForm.get('Music').invalid && addSurveyForm.get('Music').touched"
+                                                        formControlName="Music">
+                                                        <option value="Rock">Rock</option>
+                                                        <option value="Metal">Metal</option>
+                                                        <option value="Reggeaton">Reggeaton</option>
+                                                        <option value="Classic">Classic</option>
+                                                        <option value="Axe">Axe</option>
+                                                        <option value="Others">Others</option>
+                                                    </select>
+                                                    <div *ngIf="addSurveyForm.get('Music').invalid && addSurveyForm.get('Music').touched">
+                                                        <small
+                                                            *ngIf="addSurveyForm.get('Music').invalid && addSurveyForm.get('Music').touched"
+                                                            class="text-danger"> Style of Music is required</small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="submit-section">
+                                            <button class="btn btn-primary submit-btn" type="submit">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal-body">
+
+                </div>
+
+
+    <app-header></app-header>
+    <ng-container>
+        <app-target></app-target>
+    </ng-container>
+
+    <ng-container>
+        <app-graphic></app-graphic>
+    </ng-container>
+
+    <ng-container>
+        <app-table></app-table>
+    </ng-container>
+
+</div>
+<!-- /Page Content -->

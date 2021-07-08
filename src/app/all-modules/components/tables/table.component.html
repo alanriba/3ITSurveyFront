@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="table-responsive">
+      <table class="table table-striped custom-table datatable" datatable>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Music</th>
+            <th>Votes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of surveyStadistics;let i = index">
+            <td>{{i+1}}</td>
+            <td>{{row.music}}</td>
+            <td>{{row.total}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
