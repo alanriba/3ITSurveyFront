@@ -35,12 +35,6 @@ TODO
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-Desarrollado con Java Spring Boot
-
-https://angular![Screenshot 2021-07-08 at 05 04 06](https://user-images.githubusercontent.com/25330708/124897688-8a254780-dfac-11eb-9bdd-1ed2acdf6600.png)
-![Screenshot 2021-07-08 at 05 04 06](https://user-images.githubusercontent.com/25330708/124897739-96110980-dfac-11eb-9e5a-20ac9816ea52.png)
-io/
-
 ## Despliegue 📦
 
 Si hay Problemas me llaman
@@ -76,3 +70,5 @@ Yo Alex Rivera
 
 --
 ⌨️ con ❤️ por [Alex](https://github.com/alanriva) ) 😊
+![Screenshot 2021-07-08 at 05 04 06](https://user-images.githubusercontent.com/25330708/124897874-b4770500-dfac-11eb-96df-e373a3e06d56.png)
+
